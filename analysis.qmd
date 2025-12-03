@@ -20,7 +20,7 @@ library(aws.s3)
 library(earthdatalogin)
 # set tempdir if it does not exist 
 tempdir_r <- "data/th_data_sources"
-dir.create(tempdir_r, showWarnings = FALSE)
+dir.create(tempdir_r, showWarnings = FALSE, recursive = TRUE)
 ```
 
 ## ARD Image Collections
